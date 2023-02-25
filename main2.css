@@ -3,11 +3,18 @@ body {
 }
 .titulo {
    font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
 }
 .boton {
     border: 2px;
     border-style: double;
+    font-weight: bold;
 }
 .menu {
     background-color: brown;
+    font-size: 20px ;
+    height: 40px;
+    list-style: none;
+    
 }
+/* mobile*/
