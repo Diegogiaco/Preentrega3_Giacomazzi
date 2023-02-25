@@ -3,7 +3,7 @@ body {
 }
 .titulo {
    font-family: 'Times New Roman', Times, serif;
-   font-size: 70px;
+   font-size: 50px;
    background-color: grey;
    height: 100%;
 }
@@ -18,5 +18,39 @@ body {
     height: auto;
     list-style: none;
 }
-
+footer {
+    bottom: 0px;
+    left: 0px;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+/*portatil*/
+@media only screen and (max-width: 1024px) {
+    .titulo {
+            font-size: 50px;
+            };
+    }
+    
+/*intermedio*/
+@media only screen and (max-width: 900px) {
+    .titulo {
+            font-size: 40px;
+            };
+    }
+/*tablet*/
+@media only screen and (max-width: 768px) {
+.titulo {
+        font-size: 30px;
+    };
+}
+.imagen {
+    height: 70px;
+    width: 70px;
+}
 /* mobile*/
+@media only screen and (max-width: 768px) {
+    .titulo {
+            font-size: 40px;
+        };
+    }
+    
