@@ -3,7 +3,7 @@ body {
 }
 .titulo {
    font-family: 'Times New Roman', Times, serif;
-   font-size: 50px;
+   font-size: 70px;
 }
 .boton {
     border: 2px;
@@ -12,9 +12,11 @@ body {
 }
 .menu {
     background-color: brown;
-    font-size: 20px ;
-    height: 40px;
+    font-size: 30px ;
+    height: auto;
     list-style: none;
-    
+}
+header {
+    background-color: grey;
 }
 /* mobile*/
