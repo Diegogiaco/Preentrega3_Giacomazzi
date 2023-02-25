@@ -3,7 +3,7 @@ body {
 }
 .titulo {
    font-family: 'Times New Roman', Times, serif;
-   font-size: 50px;
+   font-size: 70px;
    background-color: grey;
    height: 100%;
 }
@@ -24,33 +24,45 @@ footer {
     background-color: yellowgreen;
     font-size: 20px;
 }
+/*intermedio*/
+@media only screen and (max-width: 1250px) {
+    .titulo {
+            font-size: 65px;
+            };
+}
 /*portatil*/
 @media only screen and (max-width: 1024px) {
     .titulo {
-            font-size: 50px;
+            font-size: 60px;
             };
-    }
-    
+    .logo {
+        height: 100px;
+        width: 80px;
+        }
+}
 /*intermedio*/
 @media only screen and (max-width: 900px) {
     .titulo {
-            font-size: 40px;
+            font-size: 55px;
             };
     }
 /*tablet*/
 @media only screen and (max-width: 768px) {
-.titulo {
-        font-size: 30px;
+    .titulo {
+        font-size: 50px;
     };
-}
-.logo {
-    height: 70px;
-    width: 70px;
+    .logo {
+    height: 80px;
+    width: 60px;
+    }
 }
 /* mobile*/
 @media only screen and (max-width: 768px) {
     .titulo {
-            font-size: 40px;
+            font-size: 30px;
         };
+    .logo {
+    height: 30px;
+    width: 10px;
     }
-    
+}
